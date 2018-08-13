@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+  background-color: black;
+}
+.container{
+  background-color: white;
+  height:auto;
+  width:950px;
+  position:center;
+  margin:2% auto auto auto;
+  margin-bottom:20px;
+  padding:50px 20px 50px 100px;
+}
+.temp{
+  font-family:Megrim;
+  font-size:50px;
+  /*padding:70px 0px 0px 100px; */
+  
+  
+}
+.hr {width:2px;
+  height:300px;
+  background-color:#000000;
+  margin-left:60px;
+} 
+.city{
+  font-family:Megrim;
+  font-size:50px;
+ /* padding:0px 0px 0px 100px; */
+  
+}
+input[type=text] {
+    width: 130px;
+    height:50px;
+    -webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    margin:50px auto auto 200px;
+    font-family:OpenSans;
+    font-size:18px;
+    
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 230px;
+    background-color:#f2f6f6;
+}
+img{
+ height:50px;
+  margin-left:5px; 
+}
+img:hover{
+   background-color:#c2d6d6;
+   cursor:pointer;
+}
+a:hover{
+   background-color:#f2f6f6;
+   cursor:pointer;
+}
+.wi{
+  font-size:100px;
+  margin:20px 0px 10px -30px;
+  
+}
+h2{
+  font-family:Megrim;
+  font-size:50px;
+  margin-left:-15px;
+}
+h3{
+  font-family:Megrim;
+  font-size:50px;
+  color:white;
+  margin-top:40px;
+}
+.foo{
+  font-family:Megrim;
+  font-size:50px;
+  color:white;
+
+}
